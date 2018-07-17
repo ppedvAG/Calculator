@@ -11,7 +11,7 @@ namespace Calculator
         // Bootstrapping
         static void Main(string[] args)
         {
-            new ConsoleUI(new Parser(),new Calculator()).Start();
+            new ConsoleUI(new RegexParser(),new Calculator()).Start();
         }
     }
 
