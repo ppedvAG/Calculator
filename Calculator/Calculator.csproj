@@ -42,13 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add.cs" />
     <Compile Include="Calculator.cs" />
+    <Compile Include="CalculatorV2.cs" />
+    <Compile Include="ICalculationOperation.cs" />
     <Compile Include="ICalculator.cs" />
     <Compile Include="IParser.cs" />
+    <Compile Include="Multiplication.cs" />
     <Compile Include="Parser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegexParser.cs" />
+    <Compile Include="Sub.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
