@@ -45,6 +45,8 @@
     <Compile Include="Add.cs" />
     <Compile Include="Calculator.cs" />
     <Compile Include="CalculatorV2.cs" />
+    <Compile Include="ConsoleUI.cs" />
+    <Compile Include="Formula.cs" />
     <Compile Include="ICalculationOperation.cs" />
     <Compile Include="ICalculator.cs" />
     <Compile Include="IParser.cs" />
